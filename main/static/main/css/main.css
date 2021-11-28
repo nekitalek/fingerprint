@@ -1,0 +1,105 @@
+#block-body {
+     width: 1035px;
+     margin: 500px auto;
+     height: auto;
+}
+body {
+     background-color: #0e0e0e;
+}
+h1 {
+     font-family: "Alte Haas Grotesk", serif;
+     font-weight: bold;
+     font-size: 100px;
+     color: #fe4135;
+     text-align: center;
+     text-shadow: 2px 2px 5px #c9352b;
+     margin-top: 10px;
+}
+p{
+     font-family: "Alte Haas Grotesk", serif;
+     font-weight: lighter;
+     font-size: 30px;
+     color: #757575;
+     text-align: center;
+     text-shadow: 1px 1px 2px #5f5f5f;
+}
+.container{
+     position: relative;
+     background-color: #757575;
+     width: 550px;
+     height: 300px;
+     border: #757575;
+     border-radius: 6px;
+     -webkit-filter: blur(5px);
+     filter: blur(6px);
+}
+.IP, .Region, .City, .Time_zone, .Organisation, .isProxy, .isTorNode, .isSuspicious,
+.IPResult,.RegionResult, .CityResult, .Time_zoneResult, .OrganisationResult,
+.isProxyResult, .isTorNodeResult, .isSuspiciousResult{
+     font-family: "Alte Haas Grotesk", serif;
+     font-weight: bold;
+     font-size: 20px;
+     color: white;
+     text-shadow: 0.5px 0.5px 1.5px #b8b8b8;
+     position: absolute;
+     top: 23%;
+     left: 43%;
+     transform: translate(-50%, -50%);
+     z-index: 2;
+     width: 300px;
+     padding: 20px;
+}
+.Region{
+     top: 29%;
+}
+.City{
+     top: 32%;
+}
+.Time_zone{
+     top: 35%;
+}
+.Organisation{
+     top: 38%;
+}
+.isProxy{
+     top: 41%;
+}
+.isTorNode{
+     top: 44%;
+}
+.isSuspicious{
+     top: 47%;
+}
+
+/*Стили для выходных значений*/
+.IPResult{
+     left: 58%;
+}
+.RegionResult{
+     left: 58%;
+     top: 29.5%;
+}
+.CityResult{
+     left: 58%;
+     top: 32.5%;
+}
+.Time_zoneResult{
+     left: 58%;
+     top: 35.5%;
+}
+.OrganisationResult{
+     left: 58%;
+     top: 38.5%;
+}
+.isProxyResult{
+     left: 58%;
+     top: 41.5%;
+}
+.isTorNodeResult{
+     left: 58%;
+     top: 44.5%;
+}
+.isSuspiciousResult{
+     left: 58%;
+     top: 47.5%;
+}
