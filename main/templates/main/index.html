@@ -26,6 +26,15 @@
     <div class="isSuspicious">Is suspicious:</div>
     <script src="{% static 'main/ip.js' %}"></script>
     <div id="Result"></div>
+<div id="demo"></div>
+<script type="text/javascript">
+    var txt = "";
+    txt += "<p> Browser CodeName: <strong>"+navigator.appCodeName+" </strong></p>";
+    txt += "<p> Language: <strong>"+navigator.language+"</strong></p>";
+    txt += "<p> Platform: <strong>"+navigator.platform+"</strong></p>";
+    txt += "<p> User-agent Header: <strong>"+navigator.userAgent+"</strong></p>";
+    document.getElementById("demo").innerHTML=txt;
+</script>
 </body>
 </html>
 
